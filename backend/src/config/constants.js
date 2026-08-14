@@ -1,0 +1,22 @@
+export const DB_NAME = "case_tracker";
+
+export const USER_ROLES = {
+  MANAGER: "manager",
+  AGENT: "agent",
+};
+
+export const CASE_STATUSES = {
+  NEW: "New",
+  ASSIGNED: "Assigned",
+  IN_PROGRESS: "In Progress",
+  SUBMITTED: "Submitted",
+  CLEARED: "Cleared",
+  DISCREPANT: "Discrepant",
+};
+
+export const CASE_STATUS_FLOW = {
+  [CASE_STATUSES.NEW]: [CASE_STATUSES.ASSIGNED],
+  [CASE_STATUSES.ASSIGNED]: [CASE_STATUSES.IN_PROGRESS],
+  [CASE_STATUSES.IN_PROGRESS]: [CASE_STATUSES.SUBMITTED],
+  [CASE_STATUSES.SUBMITTED]: [CASE_STATUSES.CLEARED, CASE_STATUSES.DISCREPANT],
+};
