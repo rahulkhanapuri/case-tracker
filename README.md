@@ -1,10 +1,10 @@
-# Verifacts - Case Management System
+# Case Management System
 
 A full-stack MERN (MongoDB, Express, React, Node.js) application for managing case workflows with Manager and Agent roles. Built with MUI (Material-UI) and TypeScript on the frontend.
 
 ## Overview
 
-Verifacts replaces spreadsheet-based case tracking with a modern web application. Teams can create cases, assign them to agents, track progress through a defined workflow, and record a complete audit trail of all changes.
+ replaces spreadsheet-based case tracking with a modern web application. Teams can create cases, assign them to agents, track progress through a defined workflow, and record a complete audit trail of all changes.
 
 ### Features
 
@@ -21,7 +21,7 @@ Verifacts replaces spreadsheet-based case tracking with a modern web application
 ## Project Structure
 
 ```
-Verifacts/
+case-tracker/
 ├── backend/          # Node.js/Express API server
 │   ├── src/
 │   │   ├── config/   # Database and middleware config
