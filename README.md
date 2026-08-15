@@ -67,7 +67,8 @@ Create/update `.env` file in the backend folder:
 
 ```
 PORT=3000
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/verifacts
+CLIENT_URL = http://localhost:5173
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/case-tracker
 JWT_SECRET=your_super_secret_key
 ```
 
