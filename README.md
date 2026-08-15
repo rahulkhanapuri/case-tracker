@@ -205,10 +205,6 @@ npm start          # Production start command (add to package.json if needed)
 
 Deploy to:
 - Render
-- Railway
-- AWS (Elastic Beanstalk, EC2)
-- DigitalOcean
-- Heroku
 
 ### Frontend (React)
 
@@ -222,10 +218,7 @@ npm run build
 This creates an optimized build in the `dist/` folder.
 
 Deploy to:
-- Vercel (recommended for Vite)
-- Netlify
-- AWS S3 + CloudFront
-- GitHub Pages
+- Vercel
 
 ## Database Schema
 
@@ -340,39 +333,3 @@ Deploy to:
 - Run `npm install` in frontend folder
 - Delete `node_modules` and `package-lock.json`, then `npm install` again
 
-## Performance
-
-- Pagination on case lists (10 per page by default)
-- Search with MongoDB regex queries
-- Lazy loading of case details
-- Indexed database queries
-- Optimized MUI components
-
-## Future Enhancements
-
-- ⬜ Real-time notifications (Socket.io)
-- ⬜ Advanced analytics dashboard
-- ⬜ Email notifications
-- ⬜ Case templates
-- ⬜ Bulk operations
-- ⬜ Document preview
-- ⬜ Export to PDF/Excel
-- ⬜ Two-factor authentication
-- ⬜ Dark mode
-- ⬜ Internationalization (i18n)
-
-## Support & Issues
-
-For issues or questions:
-1. Check the backend README at `backend/README.md`
-2. Review API error responses (they include helpful messages)
-3. Check browser console for frontend errors
-4. Verify MongoDB connection and IP whitelist
-
-## License
-
-MIT
-
----
-
-**Built with ❤️ for efficient case management**
